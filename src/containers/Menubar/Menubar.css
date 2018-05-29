@@ -1,0 +1,24 @@
+.menuwrap .menu{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    justify-content: space-around;
+}
+.menu li {
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+    padding: 10px;
+} 
+.menu li:hover {
+    font-weight: 700;
+    background-color: rgb(73, 73, 73);
+}
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a.active {
+    color: rgb(177, 67, 67);
+}
